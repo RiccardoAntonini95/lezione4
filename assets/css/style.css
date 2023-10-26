@@ -1,0 +1,103 @@
+body{
+    background-image: url('/img/sfondo.png');
+    background-size: 100% 100%;
+    margin: 0;
+    width: 100%;
+}
+
+header{
+    background-color: #0088aa;
+    color: white;
+    box-shadow: -3px -1px 7px 3px black;
+    margin-bottom: 3vh;
+    align-items: center;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+header a::before{
+    content: "->";
+}
+
+header a::after{
+    content: "<-";
+}
+
+
+
+header a:hover{
+    color: blueviolet;
+}
+
+#specialp{
+    color: lightgray;
+}
+
+main ul li{
+    list-style-type: disc;
+}
+
+main h2{
+    font-weight: bold;
+}
+
+.violet{
+    color: violet;
+}
+
+.list{
+    display: inline-block;
+    background-color: lightgrey;
+    border: 1px solid grey;
+}
+
+table{
+    border-bottom: 1px solid blue;
+}
+
+caption{
+    font-style: italic;
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background-color: lightblue;
+}
+
+thead:nth-child(1){
+    background-color: blue;
+}
+
+section{
+    background-color: lightgray;
+}
+
+section h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+iframe{
+    width: 80vw;
+    height: 28vh;
+    border-radius: 20px;
+}
+
+article ul li{
+    background-color: lightgray;
+    margin: 8px auto;
+}
+
+footer{
+    background-color: #2a3b3b;
+    color: white;
+}
+
+footer a:visited{
+    color: purple;
+}
